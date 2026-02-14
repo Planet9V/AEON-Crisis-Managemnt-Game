@@ -1,0 +1,42 @@
+[
+  {
+    "id": "i-001",
+    "name": "Firewall",
+    "description": "Network security system that monitors and controls incoming and outgoing network traffic.",
+    "defense": 3,
+    "cost": 3,
+    "effect": "Blocks one network-based attack."
+  },
+  {
+    "id": "i-002",
+    "name": "Load Balancer",
+    "description": "Distributes network or application traffic across a number of servers.",
+    "defense": 2,
+    "cost": 4,
+    "effect": "Prevents DDoS attacks."
+  },
+  {
+    "id": "i-003",
+    "name": "Encryption (TLS/SSL)",
+    "description": "Encrypts data in transit to protect against interception.",
+    "defense": 4,
+    "cost": 5,
+    "effect": "Mitigates data interception attacks."
+  },
+  {
+    "id": "i-004",
+    "name": "Multi-Factor Authentication (MFA)",
+    "description": "Requires two or more verification methods to gain access.",
+    "defense": 5,
+    "cost": 2,
+    "effect": "Prevents unauthorized access from phishing or stolen credentials."
+  },
+  {
+    "id": "i-005",
+    "name": "Intrusion Detection System (IDS)",
+    "description": "Device or software application that monitors a network or systems for malicious activity.",
+    "defense": 3,
+    "cost": 6,
+    "effect": "Alerts on suspicious activity. Draw 1 card when attacked."
+  }
+]
